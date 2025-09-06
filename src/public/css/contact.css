@@ -1,0 +1,161 @@
+.screen {
+    background-color: #ffffff;
+    font-family: "Inika", Helvetica, sans-serif;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.screen .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1512px;
+    min-height: 982px;
+    padding-bottom: 50px; */
+}
+
+.header {
+    width: 100%;
+    border-bottom: 1px solid #E0DFDE;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 40px;
+    margin: 0;
+    color: #8b7968;
+}
+
+.contact {
+    font-size: 25px;
+    font-weight: bold;
+    color: #8B7969;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    flex: 0 0 180px;
+    font-weight: bold;
+    color: #8B7969;
+    margin-right: 20px;
+    line-height: 2.2;
+}
+
+.required {
+    color: #FF9494;
+}
+
+.input-area {
+    flex: 1;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    padding: 8px 10px;
+    background-color: #F4F4F4;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.name-fields {
+    display: flex;
+    gap: 10px;
+}
+
+.name-fields .field {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-fields input {
+    width: 100%;
+}
+
+.name-fields .error {
+    margin-top: 5px;
+}
+
+.tel-fields {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.tel-fields input {
+    width: 80px;
+    text-align: center;
+}
+
+.tel-error {
+    margin-top: 5px;
+}
+
+.gender-options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.gender-options label {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    font-weight: normal;
+    white-space: nowrap;
+}
+
+.gender-options input[type="radio"] {
+    margin-right: 5px;
+}
+
+.gender-options label:last-child {
+    margin-right: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.error {
+    color: #FF9494;
+    font-size: 12px;
+}
+
+.submit-button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.submit-button button {
+    padding: 12px 30px;
+    font-size: 16px;
+    background-color: #8b7968;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.submit-button button:hover {
+    background-color: #6d5f53;
+}
