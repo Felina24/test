@@ -1,20 +1,11 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact - FashionablyLate</title>
+@extends('layouts.default')
+
+@section('css')
   <link rel="stylesheet" href="{{ asset('css/contact.css') }}">
-</head>
-<body>
-  <div class="screen">
-    <div class="div">
+@endsection
 
-        <header class="header">
-            <h1 class="logo">FashionablyLate</h1>
-        </header>
-
-      <h2 class="contact">Contact</h2>
+@section('content')
+      <h2 class="page-title">Contact</h2>
 
       <div class="form-wrapper">
         <form action="/confirm" method="post" class="contact-form" novalidate>
@@ -122,8 +113,5 @@
           </div>
         </form>
       </div>
+@endsection
 
-    </div>
-  </div>
-</body>
-</html>

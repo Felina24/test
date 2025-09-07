@@ -1,35 +1,10 @@
-body {
-  font-family: "Inika", Helvetica, sans-serif;
-  background-color: #ffffff;
-  color: #8b7968;
-  margin: 0;
-  padding: 0;
-}
-
-.header {
-  width: 100%;
-  border-bottom: 1px solid #E0DFDE;
-  text-align: center;
-  padding: 20px 0;
-}
-
-.logo {
-  font-size: 40px;
-  margin: 0;
-  color: #8b7968;
-}
-
-.main {
-  max-width: 1512px;
-  margin: 50px auto;
-  padding: 0 20px;
-}
-
 .page-title {
   font-size: 25px;
-  color: #8b7968;
+  font-weight: bold;
+  color: #8B7969;
   text-align: center;
-  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-bottom: 30px;
 }
 
 .confirm-box {
