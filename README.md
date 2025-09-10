@@ -30,46 +30,7 @@ Lravel環境構築
 
 
 ## ER図
-+------------------+
-|   categories     |
-+------------------+
-| id (PK)          |
-| content          |
-| created_at       |
-| updated_at       |
-+------------------+
-          ^
-          |
-          | (N:1)
-          |
-+------------------+
-|    contacts      |
-+------------------+
-| id (PK)          |
-| category_id (FK) |
-| first_name       |
-| last_name        |
-| gender           |
-| email            |
-| tel              |
-| address          |
-| building         |
-| detail           |
-| created_at       |
-| updated_at       |
-+------------------+
-
-+------------------+
-|     users        |
-+------------------+
-| id (PK)          |
-| name             |
-| email            |
-| password         |
-| created_at       |
-| updated_at       |
-+------------------+
-
+![ER図](./table.svg)
 
 ## URL
 - 開発環境：http://localhost/
