@@ -7,19 +7,23 @@ body {
 }
 
 .header {
-    display: flex;
-    flex-direction: row-reverse;
-    width: 100%;
-    border-bottom: 1px solid #E0DFDE;
+    position: relative;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px 40px;
+    border-bottom: 1px solid #E0DFDE;
 }
 
 .logo {
-    flex:1;
     font-size: 40px;
     margin: 0;
     color: #8b7968;
+}
+
+.header-extra {
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .main {

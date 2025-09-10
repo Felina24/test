@@ -1,5 +1,9 @@
 {
     "require": {
-        "doctrine/dbal": "^3.5"
+        "doctrine/dbal": "^3.5",
+        "laravel/fortify": "^1.30"
+    },
+    "require-dev": {
+        "laravel-lang/lang": "~7.0"
     }
 }

@@ -1,15 +1,10 @@
-.logout-form button {
+.logout-button {
     margin-right: 12px;
-    padding: 6px 12px;
+    padding: 12px 12px;
     background-color: #F0F0F0;
     color: #D9C6B5;
-    border: none;
+    border: 1px solid #D9C6B5;
     cursor: pointer;
-    font-size: 14px;
-}
-
-.logout-form button:hover {
-    background-color: #FF9494;
 }
 
 .page-title {
@@ -70,7 +65,7 @@
 
 .admin-table {
     width: 1183px;
-    height: 570px;
+    height: auto;
     border-collapse: collapse;
     border: 1px solid #E0DFDE;
 }
